@@ -1,0 +1,50 @@
+/* ============================================
+   AiroFit 全局基础样式
+   健身房风格：深炭色 + 活力橙点缀
+   ============================================ */
+
+:root {
+  --primary: #ff8c00;
+  --primary-dark: #e67e00;
+  --bg-dark: #1a1a1a;
+  --bg-page: #f6f6f6;
+  --text-main: #1a1a1a;
+  --text-sub: #888888;
+  --border: #e5e5e5;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+  background: var(--bg-page);
+  color: var(--text-main);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Element Plus 主色调覆盖为活力橙 */
+:root {
+  --el-color-primary: #ff8c00;
+  --el-color-primary-light-3: #ffa333;
+  --el-color-primary-light-5: #ffb866;
+  --el-color-primary-light-7: #ffd9a6;
+  --el-color-primary-light-8: #ffe6c7;
+  --el-color-primary-light-9: #fff4e6;
+  --el-color-primary-dark-2: #e67e00;
+}
+
+/* 滚动条美化 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #d0d0d0;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ff8c00;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
